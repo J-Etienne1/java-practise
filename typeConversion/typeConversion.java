@@ -30,6 +30,13 @@ public class typeConversion {
 
         
 
+        // Type promotion
+        byte y = 12;
+        byte z = 30;
+        // can we save byte to int? Ye the bytes are prmoted to int's and saved to the int vareable result
+        int result = y*z;
+
+
         System.out.println(num1);
 
         System.out.println(a);
@@ -38,7 +45,9 @@ public class typeConversion {
         System.out.println(d);
 
         System.out.println(x);
-        
+
+        System.out.println(result);
+
         
     }
 }
