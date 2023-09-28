@@ -15,7 +15,7 @@ class DataTypes {
 
     public static void main(String[] args) {
         int num1 = 9;
-        byte by = 127;
+        byte by = 127; // max can assign to a byte 127
         short sh = 558;
         long l = 5854L;
 
